@@ -5,6 +5,41 @@
   outline: none;
 }
 
+header,
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 body {
   font-family: "Open Sans";
   display: flex;
@@ -12,12 +47,12 @@ body {
   align-items: center;
   height: 100vh;
   overflow: hidden;
-  background: rgb(60, 60, 242);
+  background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
-    rgba(60, 60, 242, 1) 0%,
-    rgba(98, 245, 230, 1) 52%,
-    rgba(60, 60, 242, 1) 100%
+    rgb(97, 97, 112) 0%,
+    rgb(97, 97, 112) 0%,
+    rgb(97, 97, 112) 0%
   );
   background-size: cover;
 }
@@ -44,7 +79,7 @@ body {
   position: relative;
   font-weight: bold;
   border-radius: 50%;
-  border: 10px solid #fff;
+  border: 10px solid rgb(0, 0, 0);
   overflow: hidden;
   transition: all ease 5s;
 }
