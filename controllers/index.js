@@ -7,3 +7,5 @@ router.use("/", homeRoutes);
 router.use("/api", apiRoutes);
 
 module.exports = router;
+
+// document.querySelectorAll(".category").addEventListener("click", () => console.log("This is too hard"));
