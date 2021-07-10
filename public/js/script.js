@@ -325,7 +325,7 @@ svg
   )
   .append("path")
   .attr("d", "M-" + r * 0.15 + ",0L0," + r * 0.05 + "L0,-" + r * 0.05 + "Z")
-  .style({ fill: "black" });
+  .style({ fill: "white" });
 
 //draw spin circle
 container
