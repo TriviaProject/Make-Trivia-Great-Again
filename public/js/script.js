@@ -235,7 +235,8 @@ var arcs = vis
 arcs
   .append("path")
   .attr("fill", function (d, i) {
-    return color(i);
+    const j = Math.floor(Math.random() * 4);
+    return color(j);
   })
   .attr("d", function (d) {
     return arc(d);
