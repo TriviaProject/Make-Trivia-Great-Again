@@ -1,30 +1,4 @@
-/* * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  outline: none;
-}
-
-header,
-.project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
-}
-
-.no-button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 100%;
-}
-
-.no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
-}
-
+/* 
 .rainbow-text {
   
   color:rgb(0, 0, 0);
@@ -164,7 +138,50 @@ span b {
   50% {
     right: -40px;
   }
-} */ */
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+header,
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
 text{
         font-family:Helvetica, Arial, sans-serif;
         font-size:11px;
@@ -182,7 +199,7 @@ text{
         width:400px;
         height:500px;
         top:auto;
-        left:60%;
+        left:65%;
     }
     #question h1{
         font-size: 25px;
@@ -227,10 +244,19 @@ body {
   background-size: cover;
 }
 
-
 .chartholder {
   background-color: blue;
   ;
 }
 
+.hide {
+  display: none;
+}
+
+.form {
+  color: white;
+  position: relative;
+  top: 300px;
+  left: 800px;
+}
 

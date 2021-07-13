@@ -35,165 +35,225 @@ var data = [
     value: 1,
     question:
       "What CSS property is used for specifying the area between the content and its border?",
+    choices: ["A", "B", "C", "D"],
+    solution: 2,
   }, // padding
   {
     label: "Question 2",
     value: 1,
     question: "What CSS property is used for changing the font?",
+    choices: ["A", "B", "C", "D"],
+    solution: 3,
   }, //font-family
   {
     label: "Question 3",
     value: 1,
     question: "What CSS property is used for changing the color of text?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, //color
   {
     label: "Question 4",
     value: 1,
     question: "What CSS property is used for changing the boldness of text?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, //font-weight
   {
     label: "Question 5",
     value: 1,
     question: "What CSS property is used for changing the size of text?",
+    choices: ["A", "B", "C", "D"],
+    solution: 2,
   }, //font-size
   {
     label: "Question 6",
     value: 1,
     question:
       "What CSS property is used for changing the background color of a box?",
+    choices: ["A", "B", "C", "D"],
+    solution: 4,
   }, //background-color
   {
     label: "Question 7",
     value: 1,
     question:
       "Which word is used for specifying an HTML tag that is inside another tag?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, //nesting
   {
     label: "Question 8",
     value: 1,
     question:
       "Which side of the box is the third number in: margin:1px 1px 1px 1px; ?",
+    choices: ["A", "B", "C", "D"],
+    solution: 2,
   }, //bottom
   {
     label: "Question 9",
     value: 1,
     question:
       "What are the fonts that don't have serifs at the ends of letters called?",
+    choices: ["A", "B", "C", "D"],
+    solution: 3,
   }, //sans-serif
   {
     label: "Question 10",
     value: 1,
     question:
       "With CSS selectors, what character prefix should one use to specify a class?",
+    choices: ["A", "B", "C", "D"],
+    solution: 4,
   }, //period
   {
     label: "Question 11",
     value: 1,
     question:
       "With CSS selectors, what character prefix should one use to specify an ID?",
+    choices: ["A", "B", "C", "D"],
+    solution: 2,
   }, //pound sign
   {
     label: "Question 12",
     value: 1,
     question:
       "In an HTML document, which tag holds all of the content people see?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, //<body>
   {
     label: "Question 13",
     value: 1,
     question: "In an HTML document, which tag indicates an unordered list?",
+    choices: ["A", "B", "C", "D"],
+    solution: 2,
   }, //<ul>
   {
     label: "Question 14",
     value: 1,
     question:
       "In an HTML document, which tag indicates the most important heading of your document?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, //<h1>
   {
     label: "Question 15",
     value: 1,
     question:
       "What CSS property is used for specifying the area outside a box?",
+    choices: ["A", "B", "C", "D"],
+    solution: 3,
   }, //margin
   {
     label: "Question 16",
     value: 1,
     question: "What type of bracket is used for HTML tags?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, //< >
   {
     label: "Question 17",
     value: 1,
     question: "What type of bracket is used for CSS rules?",
+    choices: ["A", "B", "C", "D"],
+    solution: 4,
   }, // { }
   {
     label: "Question 18",
     value: 1,
     question: "Which HTML tag is used for specifying a paragraph?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, //<p>
   {
     label: "Question 19",
     value: 1,
     question: "What should always be the very first line of code in your HTML?",
+    choices: ["A", "B", "C", "D"],
+    solution: 3,
   }, //<!DOCTYPE html>
   {
     label: "Question 20",
     value: 1,
     question: "What HTML tag holds all of the metadata tags for your page?",
+    choices: ["A", "B", "C", "D"],
+    solution: 3,
   }, //<head>
   {
     label: "Question 21",
     value: 1,
     question: "In CSS, what character separates a property from a value?",
+    choices: ["A", "B", "C", "D"],
+    solution: 3,
   }, // colon
   {
     label: "Question 22",
     value: 1,
     question: "What HTML tag holds all of your CSS code?",
+    choices: ["A", "B", "C", "D"],
+    solution: 4,
   }, // <style>
   {
     label: "Question 23",
     value: 1,
     question: "What file extension should you use for your web pages?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, // .html
   {
     label: "Question 24",
     value: 1,
     question:
       "Which coding language is used for marking up content and structure on a web page?",
+    choices: ["A", "B", "C", "D"],
+    solution: 4,
   }, // HTML
   {
     label: "Question 25",
     value: 1,
     question:
       "Which coding language is used for specifying the design of a web page?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, // CSS
   {
     label: "Question 26",
     value: 1,
     question:
       "Which coding language is used for adding functionality to a web page?",
+    choices: ["A", "B", "C", "D"],
+    solution: 4,
   }, // JavaScript
   {
     label: "Question 27",
     value: 1,
     question:
       "What CSS property is used for making the edges of a box visible?",
+    choices: ["A", "B", "C", "D"],
+    solution: 1,
   }, // border
   {
     label: "Question 28",
     value: 1,
     question: "What character symbol is used at the end of each CSS statement?",
+    choices: ["A", "B", "C", "D"],
+    solution: 4,
   }, //semi-colon
   {
     label: "Question 29",
     value: 1,
     question: "By default, how wide is a <div> box?",
+    choices: ["A", "B", "C", "D"],
+    solution: 3,
   }, //100%
   {
     label: "Question 30",
     value: 1,
     question:
       "What character symbol do I use to specify multiple CSS selectors in one code block?",
+    choices: ["A", "B", "C", "D"],
+    solution: 2,
   }, //comma
 ];
 
@@ -266,6 +326,7 @@ arcs
   .attr("text-anchor", "end")
   .text(function (d, i) {
     return data[i].label;
+
   });
 
 container.on("click", spin);
@@ -312,6 +373,32 @@ function spin(d) {
 
       //populate question
       d3.select("#question h1").text(data[picked].question);
+      document.querySelector("#answers").classList.remove("hide");
+
+      document.querySelector(".form").innerHTML = `
+         <input type="radio" id="choices" name="age" value="${data[picked].choices[0]}">
+              <label for="age1">${data[picked].choices[0]}</label><br>
+              <input type="radio" id="age2" name="age" value="${data[picked].choices[1]}">
+              <label for="age2">${data[picked].choices[1]}</label><br>
+              <input type="radio" id="age3" name="age" value="${data[picked].choices[2]}">
+              <label for="age3">${data[picked].choices[2]}</label><br><br>
+ <input type="radio" id="age3" name="age" value="${data[picked].choices[3]}">
+              <label for="age3">${data[picked].choices[3]}</label><br><br>
+              
+              <input type="submit" class="answerButton" data-id=${data[picked].solution} value="Submit">
+      `;
+
+
+
+      document
+        .querySelector(".answerButton")
+        .addEventListener("click", function (event) {
+
+          event.preventDefault();
+          const userChoices = document.querySelector("#choices").value;
+          const answer = this.getAttribute("data-id");
+          console.log(userChoices,answer);
+        });
 
       oldrotation = rotation;
 
@@ -377,3 +464,4 @@ function getRandomNumbers() {
 
   return array;
 }
+
