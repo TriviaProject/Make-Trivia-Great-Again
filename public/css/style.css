@@ -164,52 +164,63 @@ span b {
   50% {
     right: -40px;
   }
-} */ */
-text{
-        font-family:Helvetica, Arial, sans-serif;
-        font-size:11px;
-        pointer-events:none;
-    }
-    #chart{
-        position:absolute;
-        width:500px;
-        height:500px;
-        top:auto;
-        left:25%;
-    }
-    #question{
-        position: absolute;
-        width:400px;
-        height:500px;
-        top:auto;
-        left:60%;
-    }
-    #question h1{
-        font-size: 25px;
-        color: white;
-        font-weight: bold;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        position: absolute;
-        padding: 0;
-        margin: 0;
-        top:50%;
-        -webkit-transform:translate(0,-50%);
-                transform:translate(0,-50%);
-    }
-    
+} */
+*/ text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+}
+#chart {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: auto;
+  left: 25%;
+}
+#question {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: auto;
+  left: 60%;
+}
+#question h1 {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
 
-    header,
-    .project:not(:last-child) {
-    border-bottom: 1px solid #ccc;
-    background-color: black;
-    color: #ccc;
-    }
+header,
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  background-color: black;
+  color: #ccc;
+}
 
-  .rainbow-text {
-  background-color:white;
+.rainbow-text {
+  background-color: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.triviaImg {
+  float: left;
+  margin: 1%;
+  width: auto;
+  height: auto;
+  max-width: 80px;
+  max-height: 80px;
+  border-style: none;
+  border-radius: 50px;
+}
+
 body {
   font-family: "Open Sans";
   /* display: flex; */
@@ -227,10 +238,6 @@ body {
   background-size: cover;
 }
 
-
 .chartholder {
   background-color: blue;
-  ;
 }
-
-
