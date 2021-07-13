@@ -33,7 +33,6 @@ var data = [
   {
     label: "Question 1",
     value: 1,
-<<<<<<< HEAD
     question:
       "What CSS property is used for specifying the area between the content and its border?",
     choices: ["A", "B", "C", "D"],
@@ -67,35 +66,10 @@ var data = [
     choices: ["A", "B", "C", "D"],
     solution: 2,
   }, //font-size
-=======
-    question: "What is Earth's largest continent?",
-  }, //Asia
-  {
-    label: "Question 2",
-    value: 1,
-    question: "What country has the most natural lakes?",
-  }, //Canada
-  {
-    label: "Question 3",
-    value: 1,
-    question: "What is the only sea without any coasts?",
-  }, //Sargasso Sea
-  {
-    label: "Question 4",
-    value: 1,
-    question: "What European country is home to Transylvania?",
-  }, //Romania
-  {
-    label: "Question 5",
-    value: 1,
-    question: "What is the deepest point in Earth's oceans?",
-  }, //Mariana Trench
->>>>>>> 10f12c1a413d525eb3a83adf11e0d5f97de6b35d
   {
     label: "Question 6",
     value: 1,
     question:
-<<<<<<< HEAD
       "What CSS property is used for changing the background color of a box?",
     choices: ["A", "B", "C", "D"],
     solution: 4,
@@ -108,15 +82,6 @@ var data = [
     choices: ["A", "B", "C", "D"],
     solution: 1,
   }, //nesting
-=======
-      "What U.S. state shares borders with Louisiana, Arkansas, Oklahoma, and New Mexico?",
-  }, //Texas
-  {
-    label: "Question 7",
-    value: 1,
-    question: "What mountain is closest to the Moon?",
-  }, //Mount Chimborazo
->>>>>>> 10f12c1a413d525eb3a83adf11e0d5f97de6b35d
   {
     label: "Question 8",
     value: 1,
@@ -176,7 +141,6 @@ var data = [
     label: "Question 15",
     value: 1,
     question:
-<<<<<<< HEAD
       "What CSS property is used for specifying the area outside a box?",
     choices: ["A", "B", "C", "D"],
     solution: 3,
@@ -223,42 +187,6 @@ var data = [
     choices: ["A", "B", "C", "D"],
     solution: 3,
   }, // colon
-=======
-      "In Greek mythology, who led the Argonauts in search of the Golden Fleece?",
-  }, //Jason
-  {
-    label: "Question 16",
-    value: 1,
-    question: "Which Norse God has a horse named Sleipnir?",
-  }, //Odin
-  {
-    label: "Question 17",
-    value: 1,
-    question: "In Greek Mythology, who killed Achilles?",
-  }, //Paris
-  {
-    label: "Question 18",
-    value: 1,
-    question: "The greek god Poseidon was the god of what?",
-  }, //The Sea
-  {
-    label: "Question 19",
-    value: 1,
-    question: "According to the Egyptian Myth of Osiris, who murdered Osiris?",
-  }, //Set
-  {
-    label: "Question 20",
-    value: 1,
-    question:
-      "Which of these mythological creatures is said to be half-man and half-horse?",
-  }, //Centaur
-  {
-    label: "Question 21",
-    value: 1,
-    question:
-      "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
-  }, // Tree
->>>>>>> 10f12c1a413d525eb3a83adf11e0d5f97de6b35d
   {
     label: "Question 22",
     value: 1,
@@ -454,9 +382,8 @@ function spin(d) {
               <label for="age2">${data[picked].choices[1]}</label><br>
               <input type="radio" id="age3" name="age" value="${data[picked].choices[2]}">
               <label for="age3">${data[picked].choices[2]}</label><br><br>
- <input type="radio" id="age3" name="age" value="${data[picked].choices[3]}">
+              <input type="radio" id="age3" name="age" value="${data[picked].choices[3]}">
               <label for="age3">${data[picked].choices[3]}</label><br><br>
-              
               <input type="submit" class="answerButton" data-id=${data[picked].solution} value="Submit">
       `;
 
@@ -536,7 +463,3 @@ function getRandomNumbers() {
 
   return array;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 10f12c1a413d525eb3a83adf11e0d5f97de6b35d
