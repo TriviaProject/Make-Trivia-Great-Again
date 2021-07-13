@@ -139,17 +139,51 @@ span b {
     right: -40px;
   }
 } */
+<<<<<<< HEAD
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   outline: none;
+=======
+*/ text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  pointer-events: none;
+}
+#chart {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: auto;
+  left: 25%;
+}
+#question {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: auto;
+  left: 60%;
+}
+#question h1 {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+>>>>>>> 10f12c1a413d525eb3a83adf11e0d5f97de6b35d
 }
 
 header,
 .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
+<<<<<<< HEAD
 }
 
 .no-button {
@@ -224,9 +258,29 @@ text{
 
   .rainbow-text {
   background-color:white;
+=======
+  background-color: black;
+  color: #ccc;
+}
+
+.rainbow-text {
+  background-color: white;
+>>>>>>> 10f12c1a413d525eb3a83adf11e0d5f97de6b35d
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.triviaImg {
+  float: left;
+  margin: 1%;
+  width: auto;
+  height: auto;
+  max-width: 80px;
+  max-height: 80px;
+  border-style: none;
+  border-radius: 50px;
+}
+
 body {
   font-family: "Open Sans";
   /* display: flex; */
@@ -246,8 +300,8 @@ body {
 
 .chartholder {
   background-color: blue;
-  ;
 }
+<<<<<<< HEAD
 
 .hide {
   display: none;
@@ -260,3 +314,5 @@ body {
   left: 800px;
 }
 
+=======
+>>>>>>> 10f12c1a413d525eb3a83adf11e0d5f97de6b35d
