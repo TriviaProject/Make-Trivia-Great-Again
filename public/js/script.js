@@ -33,41 +33,39 @@ var data = [
   {
     label: "Question 1",
     value: 1,
-    question:
-      "What CSS property is used for specifying the area between the content and its border?",
-  }, // padding
+    question: "What is Earth's largest continent?",
+  }, //Asia
   {
     label: "Question 2",
     value: 1,
-    question: "What CSS property is used for changing the font?",
-  }, //font-family
+    question: "What country has the most natural lakes?",
+  }, //Canada
   {
     label: "Question 3",
     value: 1,
-    question: "What CSS property is used for changing the color of text?",
-  }, //color
+    question: "What is the only sea without any coasts?",
+  }, //Sargasso Sea
   {
     label: "Question 4",
     value: 1,
-    question: "What CSS property is used for changing the boldness of text?",
-  }, //font-weight
+    question: "What European country is home to Transylvania?",
+  }, //Romania
   {
     label: "Question 5",
     value: 1,
-    question: "What CSS property is used for changing the size of text?",
-  }, //font-size
+    question: "What is the deepest point in Earth's oceans?",
+  }, //Mariana Trench
   {
     label: "Question 6",
     value: 1,
     question:
-      "What CSS property is used for changing the background color of a box?",
-  }, //background-color
+      "What U.S. state shares borders with Louisiana, Arkansas, Oklahoma, and New Mexico?",
+  }, //Texas
   {
     label: "Question 7",
     value: 1,
-    question:
-      "Which word is used for specifying an HTML tag that is inside another tag?",
-  }, //nesting
+    question: "What mountain is closest to the Moon?",
+  }, //Mount Chimborazo
   {
     label: "Question 8",
     value: 1,
@@ -113,38 +111,40 @@ var data = [
     label: "Question 15",
     value: 1,
     question:
-      "What CSS property is used for specifying the area outside a box?",
-  }, //margin
+      "In Greek mythology, who led the Argonauts in search of the Golden Fleece?",
+  }, //Jason
   {
     label: "Question 16",
     value: 1,
-    question: "What type of bracket is used for HTML tags?",
-  }, //< >
+    question: "Which Norse God has a horse named Sleipnir?",
+  }, //Odin
   {
     label: "Question 17",
     value: 1,
-    question: "What type of bracket is used for CSS rules?",
-  }, // { }
+    question: "In Greek Mythology, who killed Achilles?",
+  }, //Paris
   {
     label: "Question 18",
     value: 1,
-    question: "Which HTML tag is used for specifying a paragraph?",
-  }, //<p>
+    question: "The greek god Poseidon was the god of what?",
+  }, //The Sea
   {
     label: "Question 19",
     value: 1,
-    question: "What should always be the very first line of code in your HTML?",
-  }, //<!DOCTYPE html>
+    question: "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+  }, //Set
   {
     label: "Question 20",
     value: 1,
-    question: "What HTML tag holds all of the metadata tags for your page?",
-  }, //<head>
+    question:
+      "Which of these mythological creatures is said to be half-man and half-horse?",
+  }, //Centaur
   {
     label: "Question 21",
     value: 1,
-    question: "In CSS, what character separates a property from a value?",
-  }, // colon
+    question:
+      "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
+  }, // Tree
   {
     label: "Question 22",
     value: 1,
