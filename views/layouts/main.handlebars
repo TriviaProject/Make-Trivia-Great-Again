@@ -20,8 +20,8 @@
       <nav>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile">Profile</a> |
-        <button class="no-button" id="logout">logout</button>
+        <a href="/scores">Scores</a> 
+        <button class="no-button" id="logout">Logout</button>
         {{else}}
         <a href="/login">Login</a>
         {{/if}}
@@ -29,22 +29,8 @@
     </header>
     <main class="container container-fluid mt-5">
       {{!-- Wheel and Questions and Answers --}}
-      <div class="row">
-        <div class="col">
-          <div id="chart"></div>
-        </div>
-        <div class="col">
-          <div id="question">
-            <h1></h1>
-          </div>
-        </div>
-        <div class="col">
-          <div id="answers"  class="hide" >
-            <form class="form">
-            </form>
-          </div>
-        </div>
-      </div>
+      {{{body}}}
+     
 
       <script src="/js/script.js"></script>
 </body>
