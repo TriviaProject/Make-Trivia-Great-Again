@@ -15,9 +15,9 @@ Score.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    category: {
-      type: DataTypes.STRING,
-    },
+    // category: {
+    //   type: DataTypes.STRING,
+    // },
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
