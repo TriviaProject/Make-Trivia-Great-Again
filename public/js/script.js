@@ -33,228 +33,266 @@ var data = [
   {
     label: "Question 1",
     value: 1,
-    question:
-      "What CSS property is used for specifying the area between the content and its border?",
-    choices: ["A", "B", "C", "D"],
+    question: "What is Earth's largest continent?",
+    choices: ["Europe", "Asia ", "North America", "Antarctica"],
     solution: 2,
-  }, // padding
+  }, //Asia
   {
     label: "Question 2",
     value: 1,
-    question: "What CSS property is used for changing the font?",
-    choices: ["A", "B", "C", "D"],
+    question: "What country has the most natural lakes?",
+    choices: ["United States", "China", "Canada", "Russia"],
     solution: 3,
-  }, //font-family
+  }, //Canada
   {
     label: "Question 3",
     value: 1,
-    question: "What CSS property is used for changing the color of text?",
-    choices: ["A", "B", "C", "D"],
+    question: "What is the only sea without any coasts?",
+    choices: ["Sargasso Sea", "Baltic Sea", "Caspian Sea", "Mediterranean Sea"],
     solution: 1,
-  }, //color
+  }, //Sargasso Sea
   {
     label: "Question 4",
     value: 1,
-    question: "What CSS property is used for changing the boldness of text?",
-    choices: ["A", "B", "C", "D"],
+    question: "What European country is home to Transylvania?",
+    choices: ["Romania", "Bulgaria", "Albania", "Croatia"],
     solution: 1,
-  }, //font-weight
+  }, //Romania
   {
     label: "Question 5",
     value: 1,
-    question: "What CSS property is used for changing the size of text?",
-    choices: ["A", "B", "C", "D"],
+    question: "What is the deepest point in Earth's oceans?",
+    choices: [
+      "Grand Canyon",
+      "Mariana Trench",
+      "Eurasian Basin",
+      "Krubera Cave",
+    ],
     solution: 2,
-  }, //font-size
+  }, //Mariana Trench
   {
     label: "Question 6",
     value: 1,
-    question:
-      "What CSS property is used for changing the background color of a box?",
-    choices: ["A", "B", "C", "D"],
+    question: "What mountain is closest to the Moon?",
+    choices: [
+      "Mount Everest",
+      "Mount Hood",
+      "Mount Pandim",
+      "Mount Chimborazo",
+    ],
     solution: 4,
-  }, //background-color
+  }, //Mount Chimborazo
   {
     label: "Question 7",
     value: 1,
-    question:
-      "Which word is used for specifying an HTML tag that is inside another tag?",
-    choices: ["A", "B", "C", "D"],
-    solution: 1,
-  }, //nesting
+    question: "What do you call it when a bowler makes three strikes in a row?",
+    choices: ["Trike", "Turkey", "Bullseye", "Winner Winner Chicken Dinner"],
+    solution: 2,
+  }, //Turkey
   {
     label: "Question 8",
     value: 1,
-    question:
-      "Which side of the box is the third number in: margin:1px 1px 1px 1px; ?",
-    choices: ["A", "B", "C", "D"],
-    solution: 2,
-  }, //bottom
+    question: "What is the National sport of Canada?",
+    choices: ["Hockey", "Fencing", "Lacrosse", "Curling"],
+    solution: 3,
+  }, //Lacrosse
   {
     label: "Question 9",
     value: 1,
     question:
-      "What are the fonts that don't have serifs at the ends of letters called?",
-    choices: ["A", "B", "C", "D"],
-    solution: 3,
-  }, //sans-serif
+      "A sporting event is held every year on Memorial Day. What is it?",
+    choices: [
+      "Kentucky Derby",
+      "Masters Championship",
+      "Wimbledon",
+      "Indianapolis 500",
+    ],
+    solution: 4,
+  }, //Indianapolis 500
   {
     label: "Question 10",
     value: 1,
-    question:
-      "With CSS selectors, what character prefix should one use to specify a class?",
-    choices: ["A", "B", "C", "D"],
-    solution: 4,
-  }, //period
+    question: "Who was the youngest player to score 10,000 points in the NBA?",
+    choices: [
+      "Kobe Bryant",
+      "Lebron James",
+      "Michael Jordan",
+      "Oscar Robertson",
+    ],
+    solution: 2,
+  }, //Lebron James
   {
     label: "Question 11",
     value: 1,
-    question:
-      "With CSS selectors, what character prefix should one use to specify an ID?",
-    choices: ["A", "B", "C", "D"],
-    solution: 2,
-  }, //pound sign
+    question: "What’s the diameter of a basketball hoop in inches?",
+    choices: ["18 inches", "16 inches", "20 inches", "14 inches"],
+    solution: 1,
+  }, //18 inches
   {
     label: "Question 12",
     value: 1,
     question:
-      "In an HTML document, which tag holds all of the content people see?",
-    choices: ["A", "B", "C", "D"],
-    solution: 1,
-  }, //<body>
+      "Which is the only American Football team to go a whole season undefeated, including the Super Bowl?",
+    choices: [
+      "2007 Patriots",
+      "1972 Miami Dolphins ",
+      "1984 San Francisco 49ers",
+      "1976 Oakland Raiders",
+    ],
+    solution: 2,
+  }, //1972 Miami Dolphins
   {
     label: "Question 13",
     value: 1,
-    question: "In an HTML document, which tag indicates an unordered list?",
-    choices: ["A", "B", "C", "D"],
-    solution: 2,
-  }, //<ul>
+    question: "In Greek Mythology, who killed Achilles?",
+    choices: ["Ajax", "Hector", "Paris", "Perseus"],
+    solution: 3,
+  }, //Paris
   {
     label: "Question 14",
     value: 1,
-    question:
-      "In an HTML document, which tag indicates the most important heading of your document?",
-    choices: ["A", "B", "C", "D"],
+    question: "Which Norse God has a horse named Sleipnir?",
+    choices: ["Odin", "Vidar", "Balder", "Thor"],
     solution: 1,
-  }, //<h1>
+  }, //Odin
   {
     label: "Question 15",
     value: 1,
     question:
-      "What CSS property is used for specifying the area outside a box?",
-    choices: ["A", "B", "C", "D"],
-    solution: 3,
-  }, //margin
+      "Which of these mythological creatures is said to be half-man and half-horse?",
+    choices: ["Siren", "Chimera", "Minotaur", "Centaur"],
+    solution: 4,
+  }, //Centaur
   {
     label: "Question 16",
     value: 1,
-    question: "What type of bracket is used for HTML tags?",
-    choices: ["A", "B", "C", "D"],
+    question:
+      "What immense structure is referred to in Norse Mythology as the Yggdrasil?",
+    choices: ["Tree", "Mountain", "Waterfall", "Canyon"],
     solution: 1,
-  }, //< >
+  }, //Tree
   {
     label: "Question 17",
     value: 1,
-    question: "What type of bracket is used for CSS rules?",
-    choices: ["A", "B", "C", "D"],
-    solution: 4,
-  }, // { }
+    question: "What fruit did Persephone eat that sent her to the Underworld",
+    choices: ["Grape", "Apple", "Pomegranate", "Mango"],
+    solution: 3,
+  }, //Pomegranate
   {
     label: "Question 18",
     value: 1,
-    question: "Which HTML tag is used for specifying a paragraph?",
-    choices: ["A", "B", "C", "D"],
-    solution: 1,
-  }, //<p>
+    question: "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+    choices: ["Anubis", "Horus", "Set", "Ra"],
+    solution: 3,
+  }, // Set
   {
     label: "Question 19",
     value: 1,
-    question: "What should always be the very first line of code in your HTML?",
-    choices: ["A", "B", "C", "D"],
-    solution: 3,
-  }, //<!DOCTYPE html>
+    question: "What is the largest bone in the human body?",
+    choices: ["Tibia", "Ulna", "Fibula", "Femur"],
+    solution: 4,
+  }, // Femur
   {
     label: "Question 20",
     value: 1,
-    question: "What HTML tag holds all of the metadata tags for your page?",
-    choices: ["A", "B", "C", "D"],
-    solution: 3,
-  }, //<head>
+    question: "What does a “Geiger Counter” measure?",
+    choices: ["Radiation", "Electrical Charge", "Voltage", "Amperage"],
+    solution: 1,
+  }, // .html
   {
     label: "Question 21",
     value: 1,
-    question: "In CSS, what character separates a property from a value?",
-    choices: ["A", "B", "C", "D"],
-    solution: 3,
-  }, // colon
+    question:
+      "What word do scientists use to describe a unit of measure that is also the name of an animal?",
+    choices: ["Ant", "Dog", "Cat", "Mole"],
+    solution: 4,
+  }, // HTML
   {
     label: "Question 22",
     value: 1,
-    question: "What HTML tag holds all of your CSS code?",
-    choices: ["A", "B", "C", "D"],
-    solution: 4,
-  }, // <style>
+    question: "What two elements is water made of?",
+    choices: [
+      "Boron and Chlorine",
+      "Hydrogen and Nitrogen",
+      "Hydrogen and Oxygen",
+      "Nitrogen and Oxygen",
+    ],
+    solution: 3,
+  }, // CSS
   {
     label: "Question 23",
     value: 1,
-    question: "What file extension should you use for your web pages?",
-    choices: ["A", "B", "C", "D"],
-    solution: 1,
-  }, // .html
+    question: "How many elements are listed in the periodic table?",
+    choices: ["122", "112", "118", "110"],
+    solution: 3,
+  }, // JavaScript
   {
     label: "Question 24",
     value: 1,
     question:
-      "Which coding language is used for marking up content and structure on a web page?",
-    choices: ["A", "B", "C", "D"],
-    solution: 4,
-  }, // HTML
+      "Electron pairs, when shared between two atoms, help create what kind of bond?",
+    choices: [
+      "Covalent Bonds",
+      "Metallic Bonds",
+      "Ionic Bonds",
+      "Hydrogen Bonds",
+    ],
+    solution: 1,
+  }, // border
   {
     label: "Question 25",
     value: 1,
     question:
-      "Which coding language is used for specifying the design of a web page?",
-    choices: ["A", "B", "C", "D"],
-    solution: 1,
-  }, // CSS
-  {
-    label: "Question 26",
-    value: 1,
-    question:
-      "Which coding language is used for adding functionality to a web page?",
-    choices: ["A", "B", "C", "D"],
-    solution: 4,
-  }, // JavaScript
-  {
-    label: "Question 27",
-    value: 1,
-    question:
-      "What CSS property is used for making the edges of a box visible?",
-    choices: ["A", "B", "C", "D"],
-    solution: 1,
-  }, // border
-  {
-    label: "Question 28",
-    value: 1,
-    question: "What character symbol is used at the end of each CSS statement?",
-    choices: ["A", "B", "C", "D"],
+      "In 1927, who became the first man to fly solo and non-stop across the Atlantic?",
+    choices: [
+      "Amelia Earhart",
+      "Wilbur Wright",
+      "Orville Wright",
+      "Charles Lindbergh",
+    ],
     solution: 4,
   }, //semi-colon
   {
+    label: "Question 26",
+    value: 1,
+    question: "What nation separated from the United Kingdom in 1921?",
+    choices: ["Wales", "Scotland", "Ireland", "Iceland"],
+    solution: 3,
+  }, //Ireland
+  {
+    label: "Question 27",
+    value: 1,
+    question: "How many U.S. presidents have been assassinated?",
+    choices: ["Two", "Four", "Three", "Five"],
+    solution: 2,
+  }, //Four
+  {
+    label: "Question 28",
+    value: 1,
+    question:
+      "How did Alexander the Great solve the puzzle of the Gordion knot?",
+    choices: [
+      "Burned it",
+      "Cut it with a sword",
+      "Untied it with his hands",
+      "Pulled one end of it using a chariot",
+    ],
+    solution: 2,
+  }, //Cut it with a sword
+  {
     label: "Question 29",
     value: 1,
-    question: "By default, how wide is a <div> box?",
-    choices: ["A", "B", "C", "D"],
-    solution: 3,
-  }, //100%
+    question: "Where were the first modern Olympics held?",
+    choices: ["Athens", "Paris", "Rome", "London"],
+    solution: 1,
+  }, //Athens
   {
     label: "Question 30",
     value: 1,
-    question:
-      "What character symbol do I use to specify multiple CSS selectors in one code block?",
-    choices: ["A", "B", "C", "D"],
+    question: "What group of people discovered Greenland?",
+    choices: ["Conquistadors", "Vikings", "Pilgrims", "Romans"],
     solution: 2,
-  }, //comma
+  }, //Vikings
 ];
 
 var svg = d3
@@ -326,7 +364,6 @@ arcs
   .attr("text-anchor", "end")
   .text(function (d, i) {
     return data[i].label;
-
   });
 
 container.on("click", spin);
@@ -387,16 +424,13 @@ function spin(d) {
               <input type="submit" class="answerButton" data-id=${data[picked].solution} value="Submit">
       `;
 
-
-
       document
         .querySelector(".answerButton")
         .addEventListener("click", function (event) {
-
           event.preventDefault();
           const userChoices = document.querySelector("#choices").value;
           const answer = this.getAttribute("data-id");
-          console.log(userChoices,answer);
+          console.log(userChoices, answer);
         });
 
       oldrotation = rotation;
