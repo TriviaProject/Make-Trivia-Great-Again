@@ -61,7 +61,7 @@ var data = [
   {
     label: "Question 5",
     value: 1,
-    question: "What is the deepest point in Earth's oceans?",
+    question: "What is the deepest point on Earth?",
     choices: [
       "Grand Canyon",
       "Mariana Trench",
