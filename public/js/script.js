@@ -168,7 +168,7 @@ var data = [
     value: 1,
     question:
       "What immense structure is referred to in Norse Mythology as the Yggdrasil?",
-    choices: ["Tree", "Mountain", "Waterfall", "Canyon"],
+    choices: ["Tree", "Mountain", "Waterfall", "Pyramid"],
     solution: 1,
   }, //Tree
   {
@@ -243,7 +243,7 @@ var data = [
     label: "Question 25",
     value: 1,
     question:
-      "In 1927, who became the first man to fly solo and non-stop across the Atlantic?",
+      "In 1927, who became the first person to fly solo and non-stop across the Atlantic?",
     choices: [
       "Amelia Earhart",
       "Wilbur Wright",
