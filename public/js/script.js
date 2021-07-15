@@ -418,7 +418,7 @@ function spin(d) {
               <input type="radio" id="choices1" name="choices" value="${data[picked].choices[1]}">
               <label for="age2">${data[picked].choices[1]}</label><br>
               <input type="radio" id="choices2" name="choices" value="${data[picked].choices[2]}">
-              <label for="age3">${data[picked].choices[2]}</label><br><br>
+              <label for="age3">${data[picked].choices[2]}</label><br>
               <input type="radio" id="choices3" name="choices" value="${data[picked].choices[3]}">
               <label for="age3">${data[picked].choices[3]}</label><br><br>
               <input type="submit" class="answerButton" data-id=${data[picked].solution} value="Submit">
