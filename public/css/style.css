@@ -99,11 +99,6 @@ text{
 
 body {
   font-family: "Open Sans";
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 100vh; */
-  /* overflow: hidden; */
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
