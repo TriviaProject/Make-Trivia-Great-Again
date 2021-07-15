@@ -449,7 +449,7 @@ function spin(d) {
                   parseInt(answerID) - 1
                 );
                 if (userChoices === computerAnswer) {
-                  alert("Correct!");
+                  alert("Correct! (+ 5 points!)");
                   const scoreObject = await fetch("/api/scores").then(
                     (response) => response.json()
                   );
@@ -473,7 +473,7 @@ function spin(d) {
                   //   alert("Failed to create project");
                   // }
                 } else {
-                  alert("Wrong answer, try again!");
+                  alert("Wrong answer, try again! (-5 points!)");
                   const scoreObject = await fetch("/api/scores").then(
                     (response) => response.json()
                   );
