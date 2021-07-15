@@ -449,7 +449,7 @@ function spin(d) {
                   parseInt(answerID) - 1
                 );
                 if (userChoices === computerAnswer) {
-                  console.log("correct");
+                  alert("Correct!");
                   const scoreObject = await fetch("/api/scores").then(
                     (response) => response.json()
                   );
@@ -472,6 +472,24 @@ function spin(d) {
                   // } else {
                   //   alert("Failed to create project");
                   // }
+                } else {
+                  alert("Wrong answer, try again!");
+                  const scoreObject = await fetch("/api/scores").then(
+                    (response) => response.json()
+                  );
+                  console.log(scoreObject);
+                  let newScore = 5;
+                  if (scoreObject.score) {
+                    newScore = scoreObject.score - 5;
+                  }
+
+                  await fetch(`/api/scores`, {
+                    method: "PUT",
+                    body: JSON.stringify({ score: newScore }),
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                  });
                 }
              // only one radio can be logically checked, don't check the rest
              break;

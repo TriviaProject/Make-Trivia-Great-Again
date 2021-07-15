@@ -132,7 +132,7 @@ body {
 #answers {
   color: white;
   position: relative;
-  top: 500px;
+  top: 360px;
   left: 825px;
 }
 
@@ -177,4 +177,5 @@ body {
   and (-webkit-min-device-pixel-ratio: 2) {
 
 }
+
 
