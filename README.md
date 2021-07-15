@@ -49,6 +49,10 @@ We would also like to thank Scott Brunswig, Katy Cooney, and Nicole Wilsey Starr
 
 ![Here's a screenshot of the finished webpage.](./public/img/main.png)
 
+
+
 ![Here's a screenshot of the answer alerts.](./public/img/alerts.png)
+
+
 
 ![Here's a screenshot of the finished login page.](./public/img/login.png)
