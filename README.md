@@ -39,7 +39,7 @@ Rondolph Dixon (Barrel), Nabiha Khan, David Rivera, and Trevor Wiegand
 
 Github URL: https://github.com/TriviaProject/Make-Trivia-Great-Again
 
-Heroku URL:
+Heroku URL: https://m-t-g-a.herokuapp.com/
 
 ### Acknowledgments
 
@@ -47,8 +47,8 @@ We would also like to thank Scott Brunswig, Katy Cooney, and Nicole Wilsey Starr
 
 ### Screenshots
 
-![Here's a screenshot of the finished index page.](./assets/images/index-screenshot.png)
+![Here's a screenshot of the finished webpage.](./public/img/main.png)
 
-![Here's a screenshot of the finished index page.](./assets/images/screenshot-of-answers.png)
+![Here's a screenshot of the answer alerts.](./public/img/alerts.png)
 
-![Here's a screenshot of the finished index page.](./assets/images/fetched-movie-poster.png)
+![Here's a screenshot of the finished login page.](./public/img/login.png)
