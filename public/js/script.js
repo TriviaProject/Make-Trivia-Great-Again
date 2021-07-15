@@ -174,7 +174,7 @@ var data = [
   {
     label: "Question 17",
     value: 1,
-    question: "What fruit did Persephone eat that sent her to the Underworld",
+    question: "What fruit did Persephone eat that sent her to the Underworld?",
     choices: ["Grape", "Apple", "Pomegranate", "Mango"],
     solution: 3,
   }, //Pomegranate
