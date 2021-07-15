@@ -1,14 +1,37 @@
 const router = require("express").Router();
 const { Score } = require("../../models");
 const withAuth = require("../../utils/auth");
+ 
 
-router.post("/", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
-    const newScore = await Score.create({
-      ...req.body,
-      user_id: req.session.user_id,
+    let newScore = await Score.findOne( {
+      where: { user_id: req.session.user_id },
     });
+    console.log("score:", newScore);
+    
+    res.status(200).json(newScore);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
 
+
+router.put("/", async (req, res) => {
+  try {
+    let newScore = await Score.update(req.body,{
+      where: { user_id: req.session.user_id}
+    });
+    console.log("score:", newScore);
+    if (newScore[0] === 0) {
+      req.body.user_id = req.session.user_id;
+       newScore = await Score.create(req.body,{
+        where: {
+          user_id: req.session.user_id
+        },
+      });
+
+    }
     res.status(200).json(newScore);
   } catch (err) {
     res.status(400).json(err);

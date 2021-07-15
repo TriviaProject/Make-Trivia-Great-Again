@@ -413,24 +413,74 @@ function spin(d) {
       document.querySelector("#answers").classList.remove("hide");
 
       document.querySelector(".form").innerHTML = `
-         <input type="radio" id="choices" name="age" value="${data[picked].choices[0]}">
+         <input type="radio" id="choices0" name="choices" value="${data[picked].choices[0]}">
               <label for="age1">${data[picked].choices[0]}</label><br>
-              <input type="radio" id="age2" name="age" value="${data[picked].choices[1]}">
+              <input type="radio" id="choices1" name="choices" value="${data[picked].choices[1]}">
               <label for="age2">${data[picked].choices[1]}</label><br>
-              <input type="radio" id="age3" name="age" value="${data[picked].choices[2]}">
+              <input type="radio" id="choices2" name="choices" value="${data[picked].choices[2]}">
               <label for="age3">${data[picked].choices[2]}</label><br><br>
-              <input type="radio" id="age3" name="age" value="${data[picked].choices[3]}">
+              <input type="radio" id="choices3" name="choices" value="${data[picked].choices[3]}">
               <label for="age3">${data[picked].choices[3]}</label><br><br>
               <input type="submit" class="answerButton" data-id=${data[picked].solution} value="Submit">
       `;
 
       document
         .querySelector(".answerButton")
-        .addEventListener("click", function (event) {
+        .addEventListener("click", async function (event) {
           event.preventDefault();
-          const userChoices = document.querySelector("#choices").value;
-          const answer = this.getAttribute("data-id");
-          console.log(userChoices, answer);
+
+
+         var radios = document.getElementsByName("choices");
+
+         for (var i = 0, length = radios.length; i < length; i++) {
+           if (radios[i].checked) {
+             // do whatever you want with the checked radio
+           //  alert(radios[i].value);
+
+                const userChoices = radios[i].value;
+                const answerID = this.getAttribute("data-id");
+
+                const computerAnswer =
+                  data[picked].choices[parseInt(answerID) - 1];
+                console.log(
+                  "match:",
+                  userChoices,
+                  computerAnswer,
+                  parseInt(answerID) - 1
+                );
+                if (userChoices === computerAnswer) {
+                  console.log("correct");
+                  const scoreObject = await fetch("/api/scores").then(
+                    (response) => response.json()
+                  );
+                  console.log(scoreObject);
+                  let newScore = 5;
+                  if (scoreObject.score) {
+                    newScore = scoreObject.score + 5;
+                  }
+
+                 await fetch(`/api/scores`, {
+                    method: "PUT",
+                    body: JSON.stringify({ score: newScore }),
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                  });
+
+                  // if (response.ok) {
+                  //   document.location.replace("/scores");
+                  // } else {
+                  //   alert("Failed to create project");
+                  // }
+                }
+             // only one radio can be logically checked, don't check the rest
+             break;
+           }
+         }
+
+
+
+       
         });
 
       oldrotation = rotation;
