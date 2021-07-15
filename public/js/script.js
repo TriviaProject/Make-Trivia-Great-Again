@@ -455,7 +455,7 @@ function spin(d) {
                   );
                   console.log(scoreObject);
                   let newScore = 5;
-                  if (scoreObject.score) {
+                  if (scoreObject) {
                     newScore = scoreObject.score + 5;
                   }
 
